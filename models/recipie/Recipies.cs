@@ -1,3 +1,5 @@
+using shoppingAPI.enums;
+
 namespace shoppingAPI.models.Recipies
 {
     public class Recipies
@@ -6,9 +8,8 @@ namespace shoppingAPI.models.Recipies
         public string RecDescription;
         public string RecIngredients;
         public string RecInstructions;
-        // TODO: Convert to enum
-        public int RecType;
-
+        public RecipieTypeENUM RecType;
+        public int RecMealType;
         public string RecLink;
     }
 }

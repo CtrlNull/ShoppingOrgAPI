@@ -1,6 +1,6 @@
 namespace shoppingAPI.enums
 {
-    enum RecipieTypeENUM
+    public enum RecipieTypeENUM
     {
         AMERICAN = 0,
         MEXICAN = 1,
