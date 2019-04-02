@@ -9,7 +9,7 @@ namespace shoppingAPI.models.Recipies
         public string RecIngredients;
         public string RecInstructions;
         public RecipieTypeENUM RecType;
-        public int RecMealType;
+        public RecipieMealTypeENUM RecMealType;
         public string RecLink;
     }
 }
