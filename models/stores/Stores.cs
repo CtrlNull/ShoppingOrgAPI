@@ -10,7 +10,6 @@ namespace shoppingAPI.models.stores
         public string StoreAddress;
         public string StoreCity;
         public string StoreState;
-        public int StoreZip;
-        
+        public int StoreZip;        
     }
 }
